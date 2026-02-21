@@ -398,7 +398,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 Building production-grade AI agents and automation systems. Follow the journey from concept to deployment.
 
-Connect: [LinkedIn](#) | [GitHub](#) | [Twitter](#)
+Connect: [LinkedIn](#https://www.linkedin.com/in/ali-jaan-6a0b85274/) | [GitHub](#) | [Twitter](#)
 
 ---
 
