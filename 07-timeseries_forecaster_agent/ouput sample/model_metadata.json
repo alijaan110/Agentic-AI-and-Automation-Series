@@ -1,0 +1,36 @@
+{
+  "model_type": "SARIMA",
+  "parameters": {
+    "order": [
+      2,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      0,
+      7
+    ]
+  },
+  "training_date": "2025-12-14T16:43:43.230294",
+  "data_profile": {
+    "total_observations": 1096,
+    "date_range": {
+      "start": "2022-01-01 00:00:00",
+      "end": "2024-12-31 00:00:00"
+    },
+    "missing_values": 27,
+    "missing_pct": 2.4635036496350367,
+    "frequency": "D",
+    "statistics": {
+      "mean": 1438.7872310570626,
+      "median": 1404.16,
+      "std": 383.44712758670926,
+      "min": 450.1,
+      "max": 2979.99
+    }
+  },
+  "validation_metrics": null,
+  "forecast_horizon": 15
+}

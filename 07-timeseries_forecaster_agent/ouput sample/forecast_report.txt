@@ -1,0 +1,87 @@
+================================================================================
+TIME SERIES FORECASTING REPORT
+================================================================================
+
+Generated: 2025-12-14 16:43:43
+
+
+--------------------------------------------------------------------------------
+DATA SUMMARY
+--------------------------------------------------------------------------------
+Total Observations: 1096
+Date Range: 2022-01-01 00:00:00 to 2024-12-31 00:00:00
+Frequency: D
+Missing Values: 27 (2.46%)
+
+--------------------------------------------------------------------------------
+STATISTICAL SUMMARY
+--------------------------------------------------------------------------------
+Mean: 1438.79
+Median: 1404.16
+Std Dev: 383.45
+Min: 450.10
+Max: 2979.99
+
+--------------------------------------------------------------------------------
+PATTERN ANALYSIS
+--------------------------------------------------------------------------------
+Trend: INCREASING (strength: 0.319)
+Seasonality: Detected (frequency: 7, strength: 0.808)
+
+--------------------------------------------------------------------------------
+MODEL INFORMATION
+--------------------------------------------------------------------------------
+Model Type: SARIMA
+Parameters: {
+  "order": [
+    2,
+    1,
+    1
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    0,
+    7
+  ]
+}
+
+--------------------------------------------------------------------------------
+FORECAST SUMMARY
+--------------------------------------------------------------------------------
+Horizon: 15 periods
+Forecast Range: 2025-01-01 00:00:00 to 2025-01-15 00:00:00
+Mean Forecast: 1422.92
+Min Forecast: 481.18
+Max Forecast: 1926.74
+
+--------------------------------------------------------------------------------
+PATTERN INSIGHTS
+--------------------------------------------------------------------------------
+1. The time-series data shows a total of 1096 daily observations with a mean value of approximately 1439, indicating consistent daily activity levels.
+2. There is an increasing trend detected with a slope of approximately 0.686, suggesting that the values have been rising steadily over the observation period.
+3. Seasonality is present with a weekly cycle (frequency of 7), indicating repeated patterns in the data every week, which can be leveraged for planning.
+4. The data has a standard deviation of approximately 383, indicating significant variability around the mean; this suggests fluctuations that need to be managed strategically.
+5. Missing values constitute approximately 2.46% of the dataset, which is relatively low but should be addressed to ensure data integrity.
+
+--------------------------------------------------------------------------------
+FORECAST INSIGHTS
+--------------------------------------------------------------------------------
+1. The forecast for the next 15 days indicates a mean value of approximately 1423, which is slightly lower than the historical mean, suggesting a potential dip.
+2. The minimum forecast value is projected at around 481, indicating possible low periods that should be monitored closely to understand underlying causes.
+3. The maximum forecast value of approximately 1927 suggests potential peaks that can be capitalized on for sales or resource allocation.
+4. Given the trend strength of 0.319, while there is an upward trajectory, the momentum may not be strong enough to guarantee continued growth without intervention.
+5. The forecast indicates a potential for volatility with considerable differences between the minimum and maximum forecast values, highlighting the need for agile response strategies.
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+1. Implement targeted marketing strategies during the observed low forecast periods to stimulate demand and mitigate potential downturns.
+2. Prepare for peak demand by optimizing inventory and resource allocation based on the highest forecast values to maximize revenue opportunities.
+3. Utilize the detected weekly seasonality to develop a sales strategy that aligns promotions and inventory management with expected peak days.
+4. Regularly review and address missing data to improve the accuracy of the model, which can enhance forecasting precision and decision-making.
+5. Consider conducting a deeper analysis of factors influencing variability to identify and mitigate risks associated with the observed fluctuations.
+
+================================================================================
+END OF REPORT
+=================================================================================
