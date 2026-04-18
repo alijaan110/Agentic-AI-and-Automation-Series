@@ -1,0 +1,6 @@
+name,company,title,email,website,industry,company_size,location
+Sarah Chen,Stripe,VP of Product,sarah.chen@stripe.com,https://stripe.com,Financial Technology,5000+,San Francisco
+James Wilson,Shopify,Head of Engineering,james.w@shopify.com,https://shopify.com,E-commerce Platform,10000+,Ottawa
+Maria Garcia,Notion,Product Manager,maria@notion.so,https://notion.so,Productivity Software,500-1000,San Francisco
+David Park,Figma,Design Lead,david@figma.com,https://figma.com,Design Tools,1000-5000,San Francisco
+Emma Thompson,Databricks,Data Scientist,emma.t@databricks.com,https://databricks.com,Data Analytics,5000+,San Francisco

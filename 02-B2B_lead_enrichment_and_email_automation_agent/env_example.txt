@@ -1,0 +1,40 @@
+# OpenAI API Configuration
+OPENAI_API_KEY=sk-your-api-key-here
+
+# ==============================================================================
+# SETUP INSTRUCTIONS
+# ==============================================================================
+#
+# 1. Copy this file to .env:
+#    cp .env.example .env
+#
+# 2. Get your OpenAI API key:
+#    - Visit: https://platform.openai.com/api-keys
+#    - Create new secret key
+#    - Copy the key (starts with "sk-")
+#
+# 3. Replace "sk-your-api-key-here" with your actual key in .env file
+#
+# 4. Never commit .env to Git (it's in .gitignore)
+#
+# ==============================================================================
+# FOR GOOGLE COLAB USERS
+# ==============================================================================
+#
+# Don't use .env in Colab. Instead:
+# 1. Click the 🔑 (Key) icon in left sidebar
+# 2. Add secret: OPENAI_API_KEY
+# 3. Paste your API key
+# 4. Toggle ON notebook access
+#
+# ==============================================================================
+# SECURITY NOTES
+# ==============================================================================
+#
+# ⚠️ NEVER share your API key publicly
+# ⚠️ NEVER commit .env to Git
+# ⚠️ Rotate keys if accidentally exposed
+# ✅ Use environment variables for production
+# ✅ Keep .env in .gitignore
+#
+# ==============================================================================
