@@ -1,0 +1,56 @@
+customer_id,first_name,email,phone,purchase_date,amount,status,region
+CUST001,JOHN,john@example.com,555-123-4567,2024-01-15,1250.50,Active,North
+CUST002,jane,jane.doe@test.com,(555) 234-5678,01/20/2024,2500,ACTIVE,South
+CUST003,Bob Smith,invalid-email,5553456789,2024-02-10,750,  Active  ,East
+CUST004,  alice  ,alice@company.co,555.456.7890,2-15-24,1800,Pending,West
+CUST005,Charlie,charlie@test,+1-555-567-8901,2024-03-01,3200.75,Pending,North
+CUST006,DAVID,david@example.com,555-678-9012,03/10/2024,$950,PENDING,N/A
+CUST007,emma,emma@test.com,5557890123,2024-03-20,$1100,active,South
+CUST008,Frank,frank@invalid,555.456.7890,3-25-24,2750.25,Active,
+CUST009,Grace,grace@example.com,555-890-1234,04/12/2024,$1500,Completed,North
+CUST010,henry,henry@test.com,555.901.2345,2024-04-05,890,COMPLETED,null
+CUST011,Ivy,ivy@company.co,5551234567,2024-04-18,1650.50,Pending,West
+CUST012,JACK,jack@test.com,(555) 234-5678,04/18/2024,1650.50,Active,West
+CUST013,karen,karen@example,555.345.6789,4-22-24,1900,active,Unknown
+CUST014,mia,mia@example.com,555-567-8901,05/08/2024,$1050,ACTIVE,North
+CUST015,Noah,noah@test.co,5556789012,5-20-24,$1750,Active,
+CUST016,olivia,olivia@company.com,(555) 789-0123,06/10/2024,2200,Completed,West
+CUST017,Paul,paul@test.com,5556789012,05/15/2024,1400.75,Active,South
+CUST018,Quinn,quinn@example.com,555.890.1234,06/18/2024,$1950,PENDING,East
+CUST019,rachel,rachel@invalid,+1-555-012-3456,6-25-24,1300,active,North
+CUST020,Sam,sam@test.com,5551234567,07/09/2024,$1650,Active,West
+CUST021,TINA,tina@example.com,555-234-5678,2024-07-02,2850.50,Active,West
+CUST022,uma,uma@test.co,5553456789,7-25-24,€2500,Completed,North
+CUST023,Victor,victor@company.com,+1-555-678-9012,08/08/2024,$2050,active,null
+CUST024,wendy,wendy@test.com,5557890123,8-22-24,1550,Pending,null
+CUST025,xavier,xavier@example.com,555-890-1234,09/01/2024,2350.25,COMPLETED,East
+CUST026,YOLANDA,yolanda@test.com,(555) 901-2345,09/10/2024,$1850,Active,East
+CUST027,zack,zack@company.co,555.012.3456,2024-09-18,1750,pending,North
+CUST028,Amy,amy@test.com,5551234567,9-25-24,2150.50,active,North
+CUST029,brian,brian@example.com,555-234-5678,2024-10-02,$1950,Completed,East
+CUST030,Cindy,cindy@test.com,(555) 345-6789,10/09/2024,2050,ACTIVE,South
+CUST031,derek,derek@company.com,555.456.7890,2024-10-16,€1700,Pending,East
+CUST032,Ellen,ellen@test.com,+1-555-567-8901,10-23-24,$1250,active,North
+CUST033,fred,fred@example.com,5556789012,11/08/2024,2250,completed,North
+CUST034,Gina,gina@test.com,555-789-0123,2024-11-15,1350,Active,North
+CUST035,hank,hank@company.co,(555) 890-1234,11/22-24,2550.75,PENDING,East
+CUST036,iris,iris@test.com,555.901.2345,12/01/2024,$1450,active,North
+CUST037,JAMES,james@example.com,555-012-3456,2024-01-10,1850,Completed,West
+CUST038,kelly,kelly@test.com,5551234567,12/05/2024,2450.50,Active,null
+CUST039,LUKE,luke@company.com,(555) 234-5678,1-12-24,$1750,pending,North
+CUST040,mary,mary@test.com,555.345.6789,02/15/2024,2650,active,South
+CUST041,nick,nick@example.com,555-456-7890,2024-03-05,€1950,ACTIVE,Unknown
+CUST042,OSCAR,oscar@test.com,+1-555-567-8901,3-12-24,1550,completed,East
+CUST043,pam,pam@company.co,5556789012,04/20/2024,$2350,Pending,North
+CUST044,quincy,quincy@test.com,555-789-0123,2024-04-01,1650,active,
+CUST045,Rita,rita@example.com,(555) 890-1234,3-12-24,2050.25,Completed,West
+CUST046,steve,steve@test.com,555.901.2345,04/20/2024,$2150,ACTIVE,South
+CUST047,TRACY,tracy@company.com,555-012-3456,2024-02-05,50000,pending,
+CUST048,ursula,ursula@test.com,5551234567,2-15-24,2350,active,East
+CUST049,vince,vince@example.com,(555) 234-5678,2024-03-01,1650,Completed,South
+CUST050,Bob Smith,invalid-email,5553456789,2024-02-10,750,Active,East
+CUST006,DAVID,david@example.com,555-678-9012,03/10/2024,950,PENDING,N/A
+CUST023,Victor,victor@company.com,+1-555-678-9012,08/08/2024,2050,active,null
+CUST030,Cindy,cindy@test.com,(555) 345-6789,10/09/2024,2050,ACTIVE,South
+CUST022,uma,uma@test.co,5553456789,7-25-24,2500,Completed,North
+CUST042,OSCAR,oscar@test.com,+1-555-567-8901,3-12-24,1550,completed,Unknown

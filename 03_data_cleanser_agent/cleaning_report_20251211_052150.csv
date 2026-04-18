@@ -1,0 +1,11 @@
+column,issue,action,before,after,removed,status,invalid_removed
+region,missing_values,Filled with mode,14.0,0.0,,,
+ALL,duplicates,Removed duplicates (keep first),55.0,54.0,1.0,,
+purchase_date,date_format,Standardized to %Y-%m-%d,,,,success,
+first_name,text_case,Standardized to title case,,,,success,
+phone,text_case,Standardized to title case,,,,success,
+status,text_case,Standardized to title case,,,,success,
+phone,phone_format,Standardized to E.164 format,,,,success,
+email,email_validation,Validated emails,54.0,48.0,,,6.0
+phone,data_type,Converted to numeric,,,,success,
+amount,data_type,Converted to numeric,,,,success,
