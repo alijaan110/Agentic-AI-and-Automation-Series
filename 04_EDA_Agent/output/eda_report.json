@@ -1,0 +1,439 @@
+{
+  "dataset_overview": {
+    "format": ".csv",
+    "columns": [
+      "order_id",
+      "order_date",
+      "region",
+      "channel",
+      "product_category",
+      "units_sold",
+      "unit_price",
+      "discount_pct",
+      "customer_segment",
+      "returned"
+    ],
+    "column_types": {
+      "order_id": "numeric",
+      "order_date": "datetime",
+      "region": "categorical",
+      "channel": "categorical",
+      "product_category": "categorical",
+      "units_sold": "numeric",
+      "unit_price": "numeric",
+      "discount_pct": "numeric",
+      "customer_segment": "categorical",
+      "returned": "boolean"
+    },
+    "sample_rows": [
+      {
+        "order_id": 10001,
+        "order_date": "2025-01-05T00:00:00",
+        "region": "North",
+        "channel": "Online",
+        "product_category": "Electronics",
+        "units_sold": 2,
+        "unit_price": 499.989990234375,
+        "discount_pct": 5.0,
+        "customer_segment": "Consumer",
+        "returned": false
+      },
+      {
+        "order_id": 10002,
+        "order_date": "2025-01-06T00:00:00",
+        "region": "South",
+        "channel": "Retail",
+        "product_category": "Home",
+        "units_sold": 1,
+        "unit_price": 129.5,
+        "discount_pct": 0.0,
+        "customer_segment": "Corporate",
+        "returned": false
+      },
+      {
+        "order_id": 10003,
+        "order_date": "2025-01-06T00:00:00",
+        "region": "East",
+        "channel": "Online",
+        "product_category": "Office Supplies",
+        "units_sold": 12,
+        "unit_price": 3.990000009536743,
+        "discount_pct": 10.0,
+        "customer_segment": "Small Business",
+        "returned": false
+      },
+      {
+        "order_id": 10004,
+        "order_date": "2025-01-07T00:00:00",
+        "region": "West",
+        "channel": "Partner",
+        "product_category": "Furniture",
+        "units_sold": 1,
+        "unit_price": 899.0,
+        "discount_pct": 15.0,
+        "customer_segment": "Consumer",
+        "returned": true
+      },
+      {
+        "order_id": 10005,
+        "order_date": "2025-01-08T00:00:00",
+        "region": "North",
+        "channel": "Online",
+        "product_category": "Home",
+        "units_sold": 4,
+        "unit_price": 24.989999771118164,
+        "discount_pct": 0.0,
+        "customer_segment": "Consumer",
+        "returned": false
+      }
+    ]
+  },
+  "data_quality": {
+    "missing_values": {
+      "by_column": {
+        "order_id": 0,
+        "order_date": 0,
+        "region": 0,
+        "channel": 0,
+        "product_category": 0,
+        "units_sold": 0,
+        "unit_price": 0,
+        "discount_pct": 0,
+        "customer_segment": 0,
+        "returned": 0
+      },
+      "percent_by_column": {
+        "order_id": 0.0,
+        "order_date": 0.0,
+        "region": 0.0,
+        "channel": 0.0,
+        "product_category": 0.0,
+        "units_sold": 0.0,
+        "unit_price": 0.0,
+        "discount_pct": 0.0,
+        "customer_segment": 0.0,
+        "returned": 0.0
+      },
+      "total_missing_cells": 0
+    },
+    "duplicates": {
+      "duplicate_rows": 0
+    },
+    "outliers_iqr": {
+      "order_id": 0,
+      "units_sold": 3,
+      "unit_price": 0,
+      "discount_pct": 0
+    }
+  },
+  "statistics": {
+    "numeric": {
+      "order_id": {
+        "count": 20.0,
+        "mean": 10010.5,
+        "std": 5.916079783099616,
+        "min": 10001.0,
+        "25%": 10005.75,
+        "50%": 10010.5,
+        "75%": 10015.25,
+        "max": 10020.0
+      },
+      "units_sold": {
+        "count": 20.0,
+        "mean": 6.05,
+        "std": 9.784386057710304,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 2.0,
+        "75%": 5.25,
+        "max": 40.0
+      },
+      "unit_price": {
+        "count": 20.0,
+        "mean": 354.9435119628906,
+        "std": 420.81903076171875,
+        "min": 0.9900000095367432,
+        "25%": 22.429999828338623,
+        "50%": 164.25,
+        "75%": 562.2424926757812,
+        "max": 1299.0
+      },
+      "discount_pct": {
+        "count": 20.0,
+        "mean": 6.375,
+        "std": 7.259974956512451,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 5.0,
+        "75%": 10.0,
+        "max": 25.0
+      }
+    },
+    "correlation_pearson": {
+      "order_id": {
+        "order_id": 1.0,
+        "units_sold": 0.096834,
+        "unit_price": -0.052725,
+        "discount_pct": 0.013786
+      },
+      "units_sold": {
+        "order_id": 0.096834,
+        "units_sold": 1.0,
+        "unit_price": -0.421654,
+        "discount_pct": -0.308876
+      },
+      "unit_price": {
+        "order_id": -0.052725,
+        "units_sold": -0.421654,
+        "unit_price": 1.0,
+        "discount_pct": 0.581773
+      },
+      "discount_pct": {
+        "order_id": 0.013786,
+        "units_sold": -0.308876,
+        "unit_price": 0.581773,
+        "discount_pct": 1.0
+      }
+    },
+    "categorical": {
+      "region": {
+        "unique": 4,
+        "top_values": [
+          {
+            "value": "North",
+            "count": 5
+          },
+          {
+            "value": "South",
+            "count": 5
+          },
+          {
+            "value": "East",
+            "count": 5
+          },
+          {
+            "value": "West",
+            "count": 5
+          }
+        ]
+      },
+      "channel": {
+        "unique": 3,
+        "top_values": [
+          {
+            "value": "Online",
+            "count": 10
+          },
+          {
+            "value": "Retail",
+            "count": 5
+          },
+          {
+            "value": "Partner",
+            "count": 5
+          }
+        ]
+      },
+      "product_category": {
+        "unique": 4,
+        "top_values": [
+          {
+            "value": "Electronics",
+            "count": 6
+          },
+          {
+            "value": "Home",
+            "count": 6
+          },
+          {
+            "value": "Office Supplies",
+            "count": 4
+          },
+          {
+            "value": "Furniture",
+            "count": 4
+          }
+        ]
+      },
+      "customer_segment": {
+        "unique": 3,
+        "top_values": [
+          {
+            "value": "Consumer",
+            "count": 9
+          },
+          {
+            "value": "Corporate",
+            "count": 6
+          },
+          {
+            "value": "Small Business",
+            "count": 5
+          }
+        ]
+      }
+    },
+    "datetime": {
+      "order_date": {
+        "min": "2025-01-05T00:00:00",
+        "max": "2025-01-23T00:00:00",
+        "non_null": 20
+      }
+    }
+  },
+  "visual_analysis": {
+    "charts": [
+      {
+        "chart_type": "histogram",
+        "columns": [
+          "order_id"
+        ],
+        "path": "/content/output/charts/hist_order_id.png",
+        "description": "Distribution of order_id (30-bin histogram)."
+      },
+      {
+        "chart_type": "boxplot",
+        "columns": [
+          "order_id"
+        ],
+        "path": "/content/output/charts/box_order_id.png",
+        "description": "Boxplot for order_id (outliers visible)."
+      },
+      {
+        "chart_type": "histogram",
+        "columns": [
+          "units_sold"
+        ],
+        "path": "/content/output/charts/hist_units_sold.png",
+        "description": "Distribution of units_sold (30-bin histogram)."
+      },
+      {
+        "chart_type": "boxplot",
+        "columns": [
+          "units_sold"
+        ],
+        "path": "/content/output/charts/box_units_sold.png",
+        "description": "Boxplot for units_sold (outliers visible)."
+      },
+      {
+        "chart_type": "histogram",
+        "columns": [
+          "unit_price"
+        ],
+        "path": "/content/output/charts/hist_unit_price.png",
+        "description": "Distribution of unit_price (30-bin histogram)."
+      },
+      {
+        "chart_type": "boxplot",
+        "columns": [
+          "unit_price"
+        ],
+        "path": "/content/output/charts/box_unit_price.png",
+        "description": "Boxplot for unit_price (outliers visible)."
+      },
+      {
+        "chart_type": "histogram",
+        "columns": [
+          "discount_pct"
+        ],
+        "path": "/content/output/charts/hist_discount_pct.png",
+        "description": "Distribution of discount_pct (30-bin histogram)."
+      },
+      {
+        "chart_type": "boxplot",
+        "columns": [
+          "discount_pct"
+        ],
+        "path": "/content/output/charts/box_discount_pct.png",
+        "description": "Boxplot for discount_pct (outliers visible)."
+      },
+      {
+        "chart_type": "correlation_heatmap",
+        "columns": [
+          "order_id",
+          "units_sold",
+          "unit_price",
+          "discount_pct"
+        ],
+        "path": "/content/output/charts/correlation_heatmap.png",
+        "description": "Pearson correlation heatmap for numeric columns."
+      },
+      {
+        "chart_type": "scatter_strongest_corr_pair",
+        "columns": [
+          "unit_price",
+          "discount_pct"
+        ],
+        "path": "/content/output/charts/scatter_unit_price__discount_pct.png",
+        "description": "Scatter plot for strongest absolute correlation pair: unit_price vs discount_pct."
+      },
+      {
+        "chart_type": "bar_top_categories",
+        "columns": [
+          "region"
+        ],
+        "path": "/content/output/charts/bar_region.png",
+        "description": "Top 4 category counts for region."
+      },
+      {
+        "chart_type": "bar_top_categories",
+        "columns": [
+          "channel"
+        ],
+        "path": "/content/output/charts/bar_channel.png",
+        "description": "Top 3 category counts for channel."
+      },
+      {
+        "chart_type": "bar_top_categories",
+        "columns": [
+          "product_category"
+        ],
+        "path": "/content/output/charts/bar_product_category.png",
+        "description": "Top 4 category counts for product_category."
+      },
+      {
+        "chart_type": "bar_top_categories",
+        "columns": [
+          "customer_segment"
+        ],
+        "path": "/content/output/charts/bar_customer_segment.png",
+        "description": "Top 3 category counts for customer_segment."
+      },
+      {
+        "chart_type": "time_series_daily_count",
+        "columns": [
+          "order_date"
+        ],
+        "path": "/content/output/charts/ts_count_order_date.png",
+        "description": "Daily record counts based on order_date."
+      }
+    ],
+    "chart_storage": {
+      "directory": "/content/output/charts",
+      "note": "Charts are saved as image files and referenced by path (not embedded)."
+    }
+  },
+  "insights": {
+    "key_patterns": [
+      "Units sold have a wide range with a maximum of 40, indicating potential high demand for certain products.",
+      "Unit prices vary significantly, with a maximum of 1299, suggesting a diverse product range."
+    ],
+    "anomalies": [
+      "Three outliers detected in units_sold, which may require further investigation."
+    ],
+    "business_insights": [
+      "Sales are evenly distributed across regions, indicating a balanced market presence.",
+      "Online channel dominates sales, accounting for half of the total orders."
+    ],
+    "recommended_next_steps": [
+      "Investigate outliers in units_sold to understand their impact on sales performance.",
+      "Consider analyzing customer feedback for high unit price products to enhance marketing strategies."
+    ]
+  },
+  "metadata": {
+    "rows": 20,
+    "columns": 10,
+    "generated_at": "2025-12-16T15:27:20+00:00",
+    "agent_version": "1.0.0-production"
+  }
+}
