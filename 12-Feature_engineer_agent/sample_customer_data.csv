@@ -1,0 +1,51 @@
+customer_id,signup_date,last_purchase_date,total_purchases,total_spent,avg_order_value,favorite_category,days_since_last_purchase,email_opened_last_30_days,customer_age,city,country,is_premium_member,product_returns,customer_satisfaction_score,time_on_site_minutes,newsletter_subscribed,last_login_date,mobile_app_user,total_reviews_written,average_rating_given,referral_count,social_media_connected,payment_method,language_preference,account_status
+CUST_00001,2022-03-15,2024-11-28,45,2340.50,52.01,Electronics,13,12,34,New York,USA,1,2,4.5,145.3,1,2024-12-08,1,8,4.2,3,1,Credit Card,English,Active
+CUST_00002,2022-06-22,2024-10-15,12,890.25,74.19,Clothing,57,3,28,Los Angeles,USA,0,1,3.8,67.2,1,2024-11-30,0,2,3.9,0,1,PayPal,English,Active
+CUST_00003,2023-01-10,2024-12-05,67,4523.80,67.52,Home & Garden,6,15,42,Chicago,USA,1,0,4.8,203.5,1,2024-12-10,1,15,4.7,5,1,Credit Card,English,Active
+CUST_00004,2021-11-03,2024-03-20,8,234.60,29.33,Books,265,0,55,Houston,USA,0,3,2.1,23.4,0,2024-06-12,0,1,2.5,0,0,Debit Card,English,Inactive
+CUST_00005,2023-05-18,2024-11-22,23,1567.30,68.14,Sports,19,8,31,Phoenix,USA,0,1,4.2,98.7,1,2024-12-07,1,5,4.3,2,1,Credit Card,English,Active
+CUST_00006,2022-09-08,2024-12-09,89,6789.45,76.28,Beauty,2,18,39,Philadelphia,USA,1,1,4.9,267.8,1,2024-12-11,1,22,4.8,8,1,Credit Card,English,Active
+CUST_00007,2023-07-25,2024-08-14,5,189.99,38.00,Electronics,119,1,26,San Antonio,USA,0,2,3.2,34.5,0,2024-09-22,0,0,0.0,0,0,PayPal,English,Inactive
+CUST_00008,2022-02-14,2024-12-01,34,2145.67,63.11,Clothing,10,11,45,San Diego,USA,1,0,4.6,156.2,1,2024-12-09,1,9,4.5,4,1,Credit Card,English,Active
+CUST_00009,2023-11-30,2024-11-25,15,987.50,65.83,Home & Garden,16,6,37,Dallas,USA,0,1,4.0,89.3,1,2024-12-05,0,3,4.1,1,1,Debit Card,English,Active
+CUST_00010,2021-08-19,2024-01-08,3,123.45,41.15,Books,337,0,62,San Jose,USA,0,0,2.8,12.6,0,2024-02-15,0,0,3.0,0,0,Credit Card,English,Inactive
+CUST_00011,2022-12-05,2024-12-08,56,3456.78,61.73,Sports,3,14,29,Austin,USA,1,2,4.7,178.9,1,2024-12-10,1,12,4.6,6,1,PayPal,English,Active
+CUST_00012,2023-03-22,2024-11-18,19,1234.56,64.98,Beauty,23,7,33,Jacksonville,USA,0,1,4.1,102.4,1,2024-12-02,1,4,4.2,2,1,Credit Card,English,Active
+CUST_00013,2022-07-11,2024-12-10,78,5678.90,72.81,Electronics,1,17,48,Fort Worth,USA,1,0,4.9,234.6,1,2024-12-11,1,19,4.9,7,1,Credit Card,English,Active
+CUST_00014,2023-09-03,2024-05-28,6,345.67,57.61,Clothing,196,2,24,Columbus,USA,0,3,2.9,45.7,0,2024-07-19,0,1,3.1,0,0,Debit Card,English,Inactive
+CUST_00015,2022-04-17,2024-12-04,41,2789.12,68.03,Home & Garden,7,13,41,Charlotte,USA,1,1,4.6,167.3,1,2024-12-09,1,10,4.5,4,1,Credit Card,English,Active
+CUST_00016,2023-06-29,2024-11-29,28,1876.43,67.01,Books,12,9,36,San Francisco,USA,0,0,4.3,123.8,1,2024-12-06,1,6,4.4,3,1,PayPal,English,Active
+CUST_00017,2021-10-12,2024-02-22,4,178.90,44.73,Sports,293,0,58,Indianapolis,USA,0,2,2.5,19.8,0,2024-04-10,0,0,2.8,0,0,Debit Card,English,Inactive
+CUST_00018,2022-11-24,2024-12-07,63,4321.09,68.59,Beauty,4,16,38,Seattle,USA,1,1,4.8,198.7,1,2024-12-10,1,16,4.7,6,1,Credit Card,English,Active
+CUST_00019,2023-08-15,2024-10-30,11,678.90,61.72,Electronics,42,4,27,Denver,USA,0,1,3.7,72.5,1,2024-11-25,0,2,3.8,1,1,PayPal,English,Active
+CUST_00020,2022-05-08,2024-12-09,52,3210.45,61.74,Clothing,2,15,43,Washington,USA,1,0,4.8,189.4,1,2024-12-11,1,13,4.7,5,1,Credit Card,English,Active
+CUST_00021,2023-02-19,2024-07-12,7,456.78,65.25,Home & Garden,152,1,30,Boston,USA,0,2,3.3,52.3,0,2024-09-05,0,1,3.4,0,0,Debit Card,English,Inactive
+CUST_00022,2022-08-26,2024-12-06,71,5234.67,73.73,Sports,5,17,46,Nashville,USA,1,1,4.9,212.6,1,2024-12-10,1,18,4.8,7,1,Credit Card,English,Active
+CUST_00023,2023-10-14,2024-11-21,16,1098.76,68.67,Beauty,20,6,32,El Paso,USA,0,1,4.0,94.2,1,2024-12-03,1,4,4.1,2,1,PayPal,English,Active
+CUST_00024,2021-12-07,2023-12-15,2,98.76,49.38,Books,362,0,64,Detroit,USA,0,1,2.2,8.9,0,2024-01-28,0,0,2.0,0,0,Debit Card,English,Inactive
+CUST_00025,2022-03-31,2024-12-08,47,2987.65,63.57,Electronics,3,14,35,Portland,USA,1,1,4.7,173.5,1,2024-12-10,1,11,4.6,5,1,Credit Card,English,Active
+CUST_00026,2023-07-09,2024-11-26,21,1432.10,68.20,Clothing,15,8,29,Memphis,USA,0,0,4.2,107.8,1,2024-12-04,1,5,4.3,2,1,PayPal,English,Active
+CUST_00027,2022-01-20,2024-04-18,9,567.89,63.10,Home & Garden,237,1,52,Oklahoma City,USA,0,3,2.7,38.6,0,2024-06-30,0,1,2.9,0,0,Credit Card,English,Inactive
+CUST_00028,2023-04-05,2024-12-05,59,3987.54,67.59,Sports,6,15,40,Las Vegas,USA,1,1,4.8,194.3,1,2024-12-09,1,14,4.7,6,1,Credit Card,English,Active
+CUST_00029,2022-10-18,2024-11-19,13,876.54,67.43,Beauty,22,5,28,Louisville,USA,0,1,3.9,81.2,1,2024-12-01,0,3,4.0,1,1,Debit Card,English,Active
+CUST_00030,2023-12-12,2024-12-10,84,6543.21,77.89,Electronics,1,19,49,Baltimore,USA,1,0,4.9,256.7,1,2024-12-11,1,21,4.9,9,1,Credit Card,English,Active
+CUST_00031,2022-06-03,2024-09-25,10,654.32,65.43,Clothing,77,2,25,Milwaukee,USA,0,2,3.5,63.4,0,2024-11-08,0,2,3.6,0,1,PayPal,English,Active
+CUST_00032,2023-05-27,2024-12-03,38,2456.78,64.65,Home & Garden,8,12,44,Albuquerque,USA,1,1,4.6,162.9,1,2024-12-08,1,9,4.5,4,1,Credit Card,English,Active
+CUST_00033,2021-09-15,2024-02-06,5,234.56,46.91,Books,309,0,60,Tucson,USA,0,2,2.4,21.3,0,2024-03-22,0,0,2.6,0,0,Debit Card,English,Inactive
+CUST_00034,2022-12-29,2024-12-07,65,4765.43,73.31,Sports,4,16,37,Fresno,USA,1,1,4.8,201.5,1,2024-12-10,1,17,4.8,7,1,Credit Card,English,Active
+CUST_00035,2023-08-21,2024-11-23,18,1234.56,68.59,Beauty,18,7,31,Sacramento,USA,0,1,4.1,99.6,1,2024-12-05,1,4,4.2,2,1,PayPal,English,Active
+CUST_00036,2022-04-13,2024-12-09,73,5432.10,74.41,Electronics,2,18,47,Long Beach,USA,1,0,4.9,223.8,1,2024-12-11,1,20,4.9,8,1,Credit Card,English,Active
+CUST_00037,2023-11-08,2024-06-19,8,432.10,54.01,Clothing,175,1,26,Kansas City,USA,0,3,3.1,47.9,0,2024-08-12,0,1,3.2,0,0,Debit Card,English,Inactive
+CUST_00038,2022-02-28,2024-12-06,49,3123.45,63.74,Home & Garden,5,14,42,Mesa,USA,1,1,4.7,181.2,1,2024-12-09,1,12,4.6,5,1,Credit Card,English,Active
+CUST_00039,2023-09-17,2024-11-27,25,1678.90,67.16,Books,14,9,34,Atlanta,USA,0,0,4.2,114.5,1,2024-12-06,1,6,4.3,3,1,PayPal,English,Active
+CUST_00040,2022-07-22,2024-12-08,81,6234.56,76.96,Sports,3,18,50,Virginia Beach,USA,1,1,4.9,245.3,1,2024-12-11,1,22,4.9,9,1,Credit Card,English,Active
+CUST_00041,2023-03-06,2024-08-08,6,345.67,57.61,Beauty,125,2,23,Omaha,USA,0,2,3.4,41.2,0,2024-10-15,0,1,3.5,0,1,Debit Card,English,Inactive
+CUST_00042,2022-11-11,2024-12-04,55,3678.90,66.89,Electronics,7,15,39,Colorado Springs,USA,1,1,4.7,186.7,1,2024-12-09,1,13,4.7,6,1,Credit Card,English,Active
+CUST_00043,2023-06-14,2024-11-20,20,1345.67,67.28,Clothing,21,7,30,Raleigh,USA,0,1,4.1,103.9,1,2024-12-02,1,5,4.2,2,1,PayPal,English,Active
+CUST_00044,2021-10-29,2024-01-30,3,156.78,52.26,Home & Garden,316,0,57,Miami,USA,0,1,2.6,15.4,0,2024-03-18,0,0,2.7,0,0,Debit Card,English,Inactive
+CUST_00045,2022-05-19,2024-12-10,68,4987.65,73.35,Sports,1,17,45,Oakland,USA,1,0,4.9,215.9,1,2024-12-11,1,19,4.8,7,1,Credit Card,English,Active
+CUST_00046,2023-12-01,2024-11-28,14,987.65,70.55,Beauty,13,6,27,Minneapolis,USA,0,1,3.9,86.7,1,2024-12-07,0,3,4.0,1,1,PayPal,English,Active
+CUST_00047,2022-08-07,2024-12-05,76,5678.90,74.72,Electronics,6,17,48,Tulsa,USA,1,1,4.8,209.4,1,2024-12-10,1,18,4.8,7,1,Credit Card,English,Active
+CUST_00048,2023-04-24,2024-09-14,9,567.89,63.10,Clothing,88,3,24,Cleveland,USA,0,2,3.6,58.3,0,2024-11-02,0,2,3.7,0,1,Debit Card,English,Inactive
+CUST_00049,2022-01-09,2024-12-07,44,2765.43,62.85,Home & Garden,4,13,41,Wichita,USA,1,1,4.6,169.8,1,2024-12-10,1,10,4.5,4,1,Credit Card,English,Active
+CUST_00050,2023-10-03,2024-11-24,17,1156.78,68.05,Books,17,7,33,Arlington,USA,0,1,4.0,96.5,1,2024-12-04,1,4,4.1,2,1,PayPal,English,Active
